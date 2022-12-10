@@ -7,7 +7,7 @@ import (
 	"runtime"
 	"strconv"
 
-	"github.com/nheingit/learnGo/blockchain"
+	"github.com/angusburroughs/learnBlockChain/blockchain"
 )
 
 type CommandLine struct {
