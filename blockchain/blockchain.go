@@ -54,7 +54,7 @@ func InitBlockChain(address string) *BlockChain {
 	return &BlockChain{lastHash, db}
 }
 
-func ContinueBlockChain(address string) *BlockChain {
+func ContinueBlockChain() *BlockChain {
 	// kinda feels like pointless safety, will fail in any case if the blockchain doesn't exist
 	if DBexists(dbFile) == false {
 		fmt.Println("No blockchain found, please create one first")
